@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anestesiologia - Medicina</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #670c55;
+            padding: 50px;
+        }
+
+        header h1 {
+            color: white;
+            font-size: 5em; /* Aumenta o tamanho do título da header */
+            text-align: left;
+            margin: 0;
+        }
+
+        /* Texto de navegação */
+        .nav-links {
+            font-size: 0.9em; /* Tamanho da fonte igual ao texto */
+            color: #333; /* Cor do texto */
+            margin-left: 20px; /* Margem à esquerda */
+            margin-top: 10px; /* Margem acima dos links */
+        }
+
+        /* Estilo dos links de vídeo abaixo do cabeçalho */
+        .video-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .video-row iframe {
+            width: 100%; /* Ajusta a largura dos vídeos para ocupar todo o espaço disponível */
+            height: 400px; /* Define uma altura fixa para os vídeos */
+        }
+
+        /* Estilo do conteúdo (imagem e texto) */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .content img {
+            width: 600px; /* Aumenta o tamanho da imagem */
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .text {
+            flex: 1;
+            font-size: 0.9em; /* Diminui o tamanho da fonte do texto */
+            color: #333;
+        }
+
+        h2 {
+            color: #670c55; /* Cor dos subtítulos */
+            font-size: 1.8em; /* Tamanho dos subtítulos */
+            margin-top: 20px; /* Espaçamento acima dos subtítulos */
+        }
+
+        /* Estilo dos botões */
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .button {
+            display: block;
+            padding: 15px;
+            width: 25%;
+            text-align: center;
+            color: white;
+            font-size: 1.6em; /* Tamanho da fonte dos botões */
+            text-decoration: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            border: 2px solid #ffffff;
+            height: 120px;
+            display:flex; 
+           align-items:center; 
+           justify-content:center; 
+         }
+
+         /* Efeito de hover nos botões */
+         .button:hover {
+             opacity: 0.8; 
+             transform: scale(1.05); 
+         }
+
+         /* Cor do botão da esquerda */
+         .left { background-color:#993e83; }
+         /* Cor do botão do meio */
+         .center { background-color:#b1569a; }
+         /* Cor do botão da direita */
+         .right { background-color:#ca6fb1; }
+
+         /* Rodapé */
+         footer {
+             text-align:center; 
+             padding :10 px ; 
+             background-color :#f8f8f8 ; 
+             margin-top :30 px ; 
+         }
+     </style>
+ </head>
+ <body>
+     <header>
+         <h1>Anestesiologia</h1>
+     </header>
+
+     <!-- Texto de navegação -->
+     <div class="nav-links">
+         <a href="anestesia.html">Sobre</a> | 
+         <a href="anesIMG.html">Imagem</a> | 
+         <a href="anesVID.html">Vídeos</a>
+     </div>
+
+     <!-- Links para vídeos abaixo do cabeçalho -->
+     <div class="video-row">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wAYi6-VwCFo?si=OmLtuJ6FgkXilcBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
+         <iframe src="https://www.youtube.com/embed/iqqM8Ad3w28?si=7sQZZjaMTOFKLIQM" title="Como é a Residência de Cirurgia Geral da USP-SP | Vida de Residente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     </div>
+
+     <main>
+         <!-- Botões -->
+         <div class="buttons">
+             <a href="index.html" class="button">Sobre Nós</a>
+             <a href="cirurgia.html" class="button">Cirurgia Geral</a>
+             <a href="ginecologia.html" class="button">Ginecologia e Obstetrícia</a>
+         </div>
+     </main>
+
+     <!-- Rodapé -->
+     <footer>
+         <p>&copy; 2024 Medicina. Todos os direitos reservados.</p>
+     </footer>
+
+     <!-- Script -->
+     <script src="script.js"></script>
+
+ </body>
+ </html>

@@ -1,0 +1,112 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #670c55;
+    padding: 50px; /* Aumenta o padding para que o cabeçalho fique mais espaçado */
+}
+
+header h1 {
+    color: white;
+    font-size: 8em; /* Aumenta duas vezes mais o tamanho do título da head */
+    text-align: left;
+    margin: 0;
+}
+
+/* Estilo do subtítulo "Sobre Nós" */
+h2 {
+    color: #670c55; /* Cor do subtítulo */
+    font-size: 1.8em; /* Diminui ainda mais o subtítulo (antes era 2.5em) */
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px; /* Aproxima ainda mais o subtítulo do título */
+}
+
+/* Estilo do texto do corpo da página */
+main p {
+    color: black;
+    font-size: 1em; /* Diminui o tamanho da fonte do texto */
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 20px 20px 20px;
+}
+
+/* Estilo do conteúdo (imagem e texto) */
+.content {
+    display: flex;
+    justify-content: space-between; /* Alinha a imagem à esquerda e o texto à direita */
+    align-items: flex-start; /* Alinha no topo */
+    margin: 20px; /* Diminui as margens em torno do conteúdo */
+}
+
+.content img {
+    width: 300px; /* Ajusta a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px; /* Dá um pequeno espaço entre a imagem e o texto */
+}
+
+.text {
+    flex: 1; /* Permite que o texto ocupe o espaço restante */
+    font-size: 1.1em; /* Ajusta o tamanho da fonte do texto */
+    color: #333;
+}
+
+/* Estilo dos botões */
+.buttons {
+    display: flex;
+    justify-content: space-around; /* Alinha os botões com mais espaço entre eles */
+    margin: 20px;
+}
+
+.button {
+    display: block;
+    padding: 15px; /* Diminui o padding dos botões */
+    width: 25%; /* Diminui a largura dos botões */
+    text-align: center;
+    color: white;
+    font-size: 1.6em; /* Aumenta o tamanho da fonte dos botões */
+    text-decoration: none;
+    border-radius: 20px; /* Aumenta o arredondamento dos cantos dos botões */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid #ffffff; /* Adiciona uma borda quadriculada */
+    height: 120px; /* Diminui a altura dos botões */
+    display: flex;
+    align-items: center; /* Centraliza o texto verticalmente */
+    justify-content: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Efeito de hover nos botões */
+.button:hover {
+    opacity: 0.8;
+    transform: scale(1.05); /* Efeito de aumento do botão ao passar o mouse */
+}
+
+/* Cor do botão da esquerda */
+.left {
+    background-color: #993e83;
+}
+
+/* Cor do botão do meio */
+.center {
+    background-color: #b1569a;
+}
+
+/* Cor do botão da direita */
+.right {
+    background-color: #ca6fb1;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+}
